@@ -8,12 +8,12 @@ public class TestPool : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             Debug.Log("0");
-            PoolManager.GetInstance().GetObj("Prefabs/Cube");
+            PoolManager.Instance.GetObj("Prefabs/Cube");
         }
         if (Input.GetMouseButtonDown(1))
         {
             Debug.Log("1");
-            PoolManager.GetInstance().GetObj("Prefabs/Sphere");
+            PoolManager.Instance.GetObj("Prefabs/Sphere");
         }
     }
 }

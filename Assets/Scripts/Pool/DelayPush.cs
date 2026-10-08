@@ -13,6 +13,6 @@ public class DelayPush : MonoBehaviour
     // Update is called once per frame
     void PushObj()
     {
-        PoolManager.GetInstance().PushObj(this.gameObject.name,this.gameObject);
+        PoolManager.Instance.PushObj(this.gameObject.name,this.gameObject);
     }
 }

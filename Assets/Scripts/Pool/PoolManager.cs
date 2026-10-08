@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PoolManager : SingletonMono<PoolManager>
+public class PoolManager : Singleton<PoolManager>
 {
     //缓存容器池
     public Dictionary<string,PoolData> poolDic = new Dictionary<string, PoolData>();
